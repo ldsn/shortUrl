@@ -1,0 +1,52 @@
+<html>
+    <head>
+    	<meta charset="utf-8"/> 
+        <title>鲁大学生网-短网址</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+        <script type="text/javascript" src="./js/main.js"></script>
+    </head>
+    <body>
+    	<div class="container-fluid">
+    		<div class="page-header">
+				<span class="logo"></span><h1>鲁大学生网 <small>短链接</small></h1>
+			</div>
+    		<div class="content">
+    			<ul class='nav nav-tabs '>
+						    <li class='active'><a href='#tab1' data-toggle='tab'>缩短网址</a></li>
+						    <li><a href='#tab2' data-toggle='tab'>网址还原</a></li>
+						    
+				</ul>
+				<div class='tab-content tab-all'>
+					<div class='tab-pane active' id='tab1'>
+						<div class="form-group">
+                            <label for="url-short">缩短网址</label>
+                            <input type="text" class="form-control" id="url-short" placeholder="请输入你要缩短的网址">
+
+                          </div>
+                          <span class="url-pre">www.ldsn.net/</span><input type="text" class="form-control diy-url"/>
+                        <button class="btn btn-default short-btn">缩短网址</button>
+                        <div class="out-content">
+
+                        </div>
+					</div>
+					<div class='tab-pane' id='tab2'>
+                        <div class="form-group">
+                            <label for="url-back">网址还原</label>
+                            <input type="text" class="form-control" id="url-back" placeholder="请输入你要还原的网址">
+                          </div>
+                        <button class="btn btn-default back-btn">网址还原</button>
+                        <div class="out-content1">
+
+                        </div>
+					</div>
+				</div>
+    		</div>
+    		<div class="footer"></div>
+    	</div>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+.tab-all{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.url-pre{
+	float:left;
+}
+.diy-url{
+	width: 50px;
+	height: 26px;
+	float: left;
+}
+.short-btn{
+	float:right;
+}
